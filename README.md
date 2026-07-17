@@ -1,6 +1,6 @@
 # Computer Vision Tasks
 
-#Task 1
+# Task 1
 - Load images using OpenCV.
 - Inspect image properties.
 - Access center pixel.
