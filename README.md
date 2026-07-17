@@ -10,6 +10,6 @@
 
 # Task 2
 - Create a black image (500×500)
-- Draw a diagonal line manually
-- Draw a circle manually using the circle equation
+- Draw a diagonal line 
+- Draw a circle 
 - Display and save the output image
