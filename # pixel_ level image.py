@@ -23,8 +23,6 @@ print("Blue =", img[cy, cx, 0])
 print("Green =", img[cy, cx, 1])
 print("Red =", img[cy, cx, 2])
 
-# 3- Draw circle
-result = img.copy()
 
 # 3- Draw circle
 
@@ -77,7 +75,7 @@ img_back = img_float * 255
 
 img_back = img_back.astype(np.uint8)
 
-print("Recovered Center =", img_back[cy, cx])
+print("Center =", img_back[cy, cx])
 
 #Save output
 cv2.imwrite("output_1.jpg", result)
